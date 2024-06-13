@@ -1250,3 +1250,9 @@ a:focus {
   width: 60px;
   height: 60px;
 }
+.grid-container-p {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Adjust spacing between grid items */
+  margin: 5%;
+}
