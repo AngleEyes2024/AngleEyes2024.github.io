@@ -1231,3 +1231,22 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* Adjust spacing between grid items */
+  margin: 5%;
+}
+
+.grid-item {
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center; /* Centers the text and image */
+}
+
+.grid-item img {
+  width: 60px;
+  height: 60px;
+}
