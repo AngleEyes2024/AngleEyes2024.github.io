@@ -1256,3 +1256,96 @@ a:focus {
   gap: 20px; /* Adjust spacing between grid items */
   margin: 5%;
 }
+.grid-container-c {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Adjust spacing between grid items */
+  margin: 5%;
+}
+
+.gback{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.gback:hover{
+  background-color: #754ce6;
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: 2s;
+}
+.pback{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.pback:hover{
+  background-color: #754ce6c0;
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+/* General container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for the entire About Project section */
+.about_project {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 50px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading styles */
+.about_project h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about_project h2 {
+  color: #3498db;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Paragraph styles */
+.about_project p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* List styles for the What We Do section */
+.about_project ul {
+  list-style-type: none; /* Removes default list styling */
+  padding: 0;
+}
+
+.about_project li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Styling for strong tags to make key terms stand out */
+.about_project strong {
+  color: #333;
+  font-weight: bold;
+}
